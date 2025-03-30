@@ -110,5 +110,7 @@ li {
 }
 
 #list-section {
+    position: relative;
+    left: 50%;
     margin-left: 30px;
 }
