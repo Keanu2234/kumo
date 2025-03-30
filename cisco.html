@@ -19,6 +19,22 @@
         <h2 class="text-overlay" id="subtext">Basics</h2>
         <img id="landing-image" src="res/header_cisco.jpg">
     </div>
-    <p>Schrott</p>
+    <h1 class="text-heading">Grundkonfigration Switch:</h1>
+    <ol>
+        <li>Switch><b>enable</b></li>
+        <li>Switch#<b>configure terminal</b></li>
+        <li>Switch#<b>no ip domain lookup</b></li>
+        <li>Switch(config)#<b>hostname [xxx]</b></li>
+        <li>Switch(config)#<b>enable password [xxx]</b><br>
+            Switch(config)#<b>enable secret [xxx]</b></li>
+        <li>Switch(config)#<b>line console 0</b></br>
+            Switch(config)#<b>password [xxx]</b></br>
+            Switch(config)#<b>login</b></li>
+        <li>Switch(config)#<b>service password-encryption</b></li>
+        <li>Switch(config)#<b>banner motd #[xxx]#</b></li>
+        <li>Switch(config)#<b>exit</b></br>
+            Switch#<b>copy running-config startup-config</b></li>
+        <li>Switch#<b>show running-config</b></li>
+    </ol>
     <div id="bottom-bar"></div>
 </body>

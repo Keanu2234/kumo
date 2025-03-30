@@ -82,6 +82,12 @@ nav#top-navigation a:active {
     -webkit-text-fill-color: transparent;
 }
 
+.text-heading {
+    background: -webkit-linear-gradient(-45deg, rgb(158, 200, 224), rgb(115, 158, 238), rgb(176, 176, 241), rgb(74, 74, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #landing-image {
     width: 100%;
     object-position: 0px -90px;
@@ -96,4 +102,8 @@ nav#top-navigation a:active {
 #subtext {
     margin-top: 50px;
     font-size: 20px;
+}
+
+li {
+    margin-bottom: 20px;
 }
