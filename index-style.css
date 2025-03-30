@@ -135,6 +135,7 @@ summary {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 summary:hover {
@@ -154,4 +155,26 @@ details {
     width: 100%;
     height: 200px;
     overflow: hidden;
+}
+
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: -webkit-linear-gradient(-45deg, rgb(158, 200, 224), rgb(115, 158, 238), rgb(176, 176, 241), rgb(74, 74, 255));
+    background-size: 200px;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+
+#topButton:hover {
+    background: -webkit-linear-gradient(-45deg, rgb(114, 129, 175), rgb(63, 97, 161), rgb(103, 103, 163), rgb(55, 55, 216));
 }
