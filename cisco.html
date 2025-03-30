@@ -20,31 +20,39 @@
         <img id="landing-image" src="res/header_cisco.jpg">
     </div>
     <div id="list-section">
-        <h1 class="text-heading">Grundkonfigration Switch:</h1>
-        <ol id="ol">
-            <li>Switch><b>enable</b></li>
-            <li>Switch#<b>configure terminal</b></li>
-            <li>Switch#<b>no ip domain lookup</b></li>
-            <li>Switch(config)#<b>hostname [xxx]</b></li>
-            <li>Switch(config)#<b>enable password [xxx]</b><br>
-                Switch(config)#<b>enable secret [xxx]</b></li>
-            <li>Switch(config)#<b>line console 0</b></br>
-                Switch(config)#<b>password [xxx]</b></br>
-                Switch(config)#<b>login</b></li>
-            <li>Switch(config)#<b>service password-encryption</b></li>
-            <li>Switch(config)#<b>banner motd #[xxx]#</b></li>
-            <li>Switch(config)#<b>exit</b></br>
-                Switch#<b>copy running-config startup-config</b></li>
-            <li>Switch#<b>show running-config</b></li>
-        </ol>
+        <details>
+            <summary>
+                <h1 class="text-heading">Grundkonfigration Switch</h1>
+            </summary>
+            <ol id="ol">
+                <li>Switch><b>enable</b></li>
+                <li>Switch#<b>configure terminal</b></li>
+                <li>Switch#<b>no ip domain lookup</b></li>
+                <li>Switch(config)#<b>hostname [xxx]</b></li>
+                <li>Switch(config)#<b>enable password [xxx]</b><br>
+                    Switch(config)#<b>enable secret [xxx]</b></li>
+                <li>Switch(config)#<b>line console 0</b></br>
+                    Switch(config)#<b>password [xxx]</b></br>
+                    Switch(config)#<b>login</b></li>
+                <li>Switch(config)#<b>service password-encryption</b></li>
+                <li>Switch(config)#<b>banner motd #[xxx]#</b></li>
+                <li>Switch(config)#<b>exit</b></br>
+                    Switch#<b>copy running-config startup-config</b></li>
+                <li>Switch#<b>show running-config</b></li>
+            </ol>
+        </details>
     </div>
     <div id="list-section">
-        <h1 class="text-heading">Konfigration Router</h1>
-        <ol id="ol">
-            <li>Router(config)#<b>interface g[0]/[b]</b></li>
-            <li>Router(config)#<b>ip address [ip] [subnetmask]</b></br>
-                Router(config)#<b>no shutdown</b></li>
-        </ol>
+        <details>
+            <summary>
+                <h1 class="text-heading">Konfigration Router</h1>
+            </summary>
+            <ol id="ol">
+                <li>Router(config)#<b>interface g[0]/[b]</b></li>
+                <li>Router(config)#<b>ip address [ip] [subnetmask]</b></br>
+                    Router(config)#<b>no shutdown</b></li>
+            </ol>
+        </details>
     </div>
     <div id="bottom-bar"></div>
 </body>
