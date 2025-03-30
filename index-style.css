@@ -1,0 +1,94 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+nav#top-navigation {
+    background-color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    box-shadow: 0px 3px 30px 0px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+}
+
+nav#top-navigation a {
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+nav#top-navigation a#home-tab {
+    text-decoration: underline;
+}
+
+nav#top-navigation a:hover {
+    background-color: #a1caff;
+    cursor: pointer;
+}
+
+nav#top-navigation a:active {
+    background-color: #5774f5;
+}
+
+#nav-circle {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(-45deg, gray, white, rgb(124, 124, 248), blue);
+    background-size: 140% 140%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px rgba(0 0, 0, 0.2) inset;
+    position: absolute;
+    right: 10px;
+    animation: nav-circle-hover-animation 3s ease infinite;
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+}
+
+@keyframes nav-circle-hover-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 60%;
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+#nav-circle:hover {
+    transform: rotate(90deg) scale(110%);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.text-overlay {
+    font-size: 50px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    background: -webkit-linear-gradient(-45deg, rgb(158, 200, 224), rgb(115, 158, 238), rgb(176, 176, 241), rgb(74, 74, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#landing-image {
+    width: 100%;
+    object-position: 0px -90px;
+}
+
+#bottom-bar {
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
