@@ -108,3 +108,7 @@ nav#top-navigation a:active {
 li {
     margin-bottom: 20px;
 }
+
+#list-section {
+    margin-left: 30px;
+}
