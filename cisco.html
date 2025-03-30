@@ -54,6 +54,19 @@
     </div>
     <div id="list-section">
         <details>
+            <summary>Telnet einrichten</summary>
+            <ol id="ol">
+                <li>Switch(config)#<b>line vty 0 15</b><br>
+                    Switch(config-line)#<b>password [passvty]</b><br>
+                    Switch(config-line)#<b>login</b></li>
+                <li>Switch(config)#<b>interface vlan 1</b><br>
+                    Switch(config-line)#<b>ip address [ip] [subnetmask]</b><br>
+                    Switch(config-line)#<b>no shutdown</b></li>
+            </ol>
+        </details>
+    </div>
+    <div id="list-section">
+        <details>
             <summary>IP Konfiguration</summary>
             <div id="ip-config">
                 <img src="res/ip-config.png">
