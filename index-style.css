@@ -92,6 +92,7 @@ nav#top-navigation a:active {
 #landing-image {
     width: 100%;
     object-position: 0px -90px;
+    margin-bottom: -80px;
 }
 
 #bottom-bar {
