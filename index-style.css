@@ -92,3 +92,8 @@ nav#top-navigation a:active {
     padding: 0;
     height: 100px;
 }
+
+#subtext {
+    margin-top: 50px;
+    font-size: 20px;
+}
